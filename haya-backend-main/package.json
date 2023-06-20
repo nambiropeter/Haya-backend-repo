@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node server",
     "dev": "nodemon server",
-    "build": "npm i && npm update"
-  "build:azure": "build"
+    "build": "npm i && npm update",
+    "build:azure": "npm run build"
   },
   "author": "Haya",
   "license": "ISC",
