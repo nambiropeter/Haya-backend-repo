@@ -7,6 +7,8 @@
     "start": "node server",
     "dev": "nodemon server",
     "build": "npm i && npm update"
+     "build": "your-build-command",
+  "build:azure": "your-build-command"
   },
   "author": "Haya",
   "license": "ISC",
